@@ -1,0 +1,40 @@
+.post {
+  display: inline-flex;
+  flex-flow: column;
+}
+
+.post-image {
+  border-radius: 10px;
+  height: 300px;
+  width: 300px;
+}
+
+.post-content {
+  display: flex;
+  flex-flow: column;
+  align-items: end;
+}
+
+.likes {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.like-button {
+  padding: 4px;
+  border-radius: 10px;
+  background-color: gray;
+  color: white;
+  border: none;
+  margin-right: 5px;
+}
+
+.like-button:focus {
+  outline: 0;
+}
+
+.content-text {
+  font-size: 1.5em;
+  margin: 5px 0px 5px 0px;
+}

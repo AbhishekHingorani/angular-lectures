@@ -1,0 +1,17 @@
+<div class="post">
+  <img class="post-image" [src]="image" alt="Dummy photo" />
+  <div class="post-content">
+    <div class="content-text">{{ title }}</div>
+    <div class="likes">
+      <button (click)="incrementLikes()" class="like-button">Like</button>
+      <span>{{ likes }} Likes</span>
+      <button
+        class="like-button"
+        style="background-color: brown; margin-left: 160px"
+        (click)="deletePost()"
+      >
+        Delete
+      </button>
+    </div>
+  </div>
+</div>
